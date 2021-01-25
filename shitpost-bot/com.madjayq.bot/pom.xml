@@ -23,8 +23,13 @@
       <artifactId>guice</artifactId>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.madjayq.discord</groupId>
       <artifactId>discord</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.madjayq.pingpong</groupId>
+      <artifactId>pingpong</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>

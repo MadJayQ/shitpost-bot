@@ -5,11 +5,10 @@
     <artifactId>shitpost-bot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.madjayq.discord</groupId>
-  <artifactId>discord</artifactId>
-  <packaging>jar</packaging>
-  <name>Discord</name>
-  <description>Discord Integration</description>
+  <groupId>com.madjayq.pingpong</groupId>
+  <artifactId>pingpong</artifactId>
+  <name>Ping Pong</name>
+  <description>Ping Pong Bot Module</description>
   <dependencies>
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -24,16 +23,9 @@
       <artifactId>guice</artifactId>
     </dependency>
     <dependency>
-      <groupId>net.dv8tion</groupId>
-      <artifactId>JDA</artifactId>
-      <version>4.2.0_168</version>
+      <groupId>com.madjayq.discord</groupId>
+      <artifactId>discord</artifactId>
+      <version>${project.version}</version>
     </dependency>
   </dependencies>
-  <repositories>
-    <repository>
-      <id>jcenter</id>
-      <name>jcenter-bintray</name>
-      <url>https://jcenter.bintray.com</url>
-    </repository>
-  </repositories>
 </project>

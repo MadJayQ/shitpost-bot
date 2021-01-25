@@ -7,6 +7,7 @@ public class DiscordModule extends AbstractModule {
     protected void configure() {
         // TODO Auto-generated method stub
         bind(DiscordService.class).to(DiscordServiceImpl.class);
+        bind(DiscordEventListener.class);
     }
 
 }
