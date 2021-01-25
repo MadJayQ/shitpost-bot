@@ -11,6 +11,7 @@
 		<module>com.madjayq.discord</module>
 		<module>com.madjayq.bot</module>
 		<module>com.madjayq.pingpong</module>
+		<module>com.madjayq.shitpost</module>
 	</modules>
     <build>
         <plugins>
